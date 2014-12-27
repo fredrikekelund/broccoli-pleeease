@@ -1,0 +1,14 @@
+@import 'includes/include.css';
+
+body {
+	color: pink;
+}
+
+.defibrillator {
+	clear: both;
+}
+
+.future {
+	background-image: linear-gradient(to bottom, yellow, pink);
+	border-radius: 10px;
+}
