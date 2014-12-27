@@ -31,7 +31,7 @@ module.exports = pleeease(tree, options);
 
 In Broccoli, file paths in plugins are resolved relative to the Brocfile per default, not to each processed file. Therefore, it's possible that pleeease will throw an error upon trying to inline any files you've imported in your CSS, since the `@import` paths won't line up properly between pleeease and your source files.
 
-To work around this, you can specify a `path` property that's the same as the root of your Broccoli tree on the `import` object in the options you pass to pleeease. **Imports deeper than one level will however not be resolved correctly with this solution!**
+To work around this, you can specify a `path` property that's the same as the root of your Broccoli tree on the `import` object in the options you pass to pleeease. This only works for `@import` statements in files that reside at the root of the Broccoli tree, though.
 
 ## License
 
