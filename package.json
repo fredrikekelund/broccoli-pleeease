@@ -1,6 +1,6 @@
 {
   "name": "broccoli-pleeease",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Postprocess CSS with ease (and Broccoli.js)",
   "main": "index.js",
   "author": "Fredrik Ekelund <fredrik@fredrik.computer>",
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/fredrikekelund/broccoli-pleeease",
   "dependencies": {
     "broccoli-filter": "^0.1.10",
-    "pleeease": "^2.0.0"
+    "pleeease": "^4.0.0"
   },
   "devDependencies": {
     "broccoli": "^0.12.3",
