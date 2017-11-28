@@ -2,6 +2,23 @@
 
 > Postprocess CSS using [Pleeease](http://pleeease.io/)
 
+## DEPRECATED
+
+This module has been deprecated in favor of working directly with PostCSS. Please look to [broccoli-postcss](https://github.com/jeffjewiss/broccoli-postcss) for a full post-processing solution, and [broccoli-sass](https://www.npmjs.com/package/broccoli-sass), [broccoli-less-single](https://www.npmjs.com/package/broccoli-less-single) or [broccoli-stylus-single](https://www.npmjs.com/package/broccoli-stylus-single) for preprocessing.
+
+Here's the full list of PostCSS plugins used by Pleeease:
+
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer)
+- [css-mqpacker](https://www.npmjs.com/package/css-mqpacker)
+- [csswring](https://www.npmjs.com/package/csswring)
+- [pixrem](https://www.npmjs.com/package/pixrem)
+- [pleeease-filters](https://www.npmjs.com/package/pleeease-filters)
+- [postcss-import](https://www.npmjs.com/package/postcss-import)
+- [postcss-opacity](https://www.npmjs.com/package/postcss-opacity)
+- [postcss-pseudoelements](https://www.npmjs.com/package/postcss-pseudoelements)
+- [postcss-url](https://www.npmjs.com/package/postcss-url)
+- [postcss-vmin](https://www.npmjs.com/package/postcss-vmin)
+
 ## Install
 
 ```sh
