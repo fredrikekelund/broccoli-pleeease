@@ -1,6 +1,6 @@
 {
   "name": "broccoli-pleeease",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Postprocess CSS with ease (and Broccoli.js)",
   "main": "index.js",
   "author": "Fredrik Ekelund <fredrik@fredrik.computer>",
